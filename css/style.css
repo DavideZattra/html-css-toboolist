@@ -20,10 +20,14 @@ ul {
     list-style-type: none;
 }
 
+header{
+    vertical-align: middle;
+
+}
 main{
     margin: auto;
     width: 75%;
-    background-color: lightgray;
+    
 }
 
 .box{
@@ -38,11 +42,12 @@ main{
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
+    margin: 0 5px;
 
 }
 
 .checked{
-    
+    display: inline;
     width: 20px;
     height: 20px;
     color: limegreen;
@@ -52,13 +57,23 @@ main{
 }
 
 .not-checked{
-    
+    display: inline;
     width: 20px;
     height: 20px;
     color: red;
     border: 2px solid red;
     border-radius: 50%;
 
+}
+
+.main-li{
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 20px 0;
+}
+
+.secundary-li {
+    Margin: 15px 25px;
 }
 
 .list-box{
@@ -68,6 +83,7 @@ main{
     padding: 5px 10px;
     border-radius: 10px;
 }
+
 
 .edit{
 
@@ -121,3 +137,27 @@ main{
     border: 1px solid gray;
 }
 
+#logo{
+    
+    width: 75px;
+    vertical-align: middle;
+    margin: 10px 15px
+}
+
+#heading{
+    display: inline;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+
+#box-1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#box-2{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
