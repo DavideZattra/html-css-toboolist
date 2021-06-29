@@ -47,23 +47,26 @@ main{
 }
 
 .checked{
-    display: inline;
-    width: 20px;
-    height: 20px;
+    display: inline-block;
+    width: 22.5px;
+    height: 22.5px;
     color: limegreen;
     border: 2px solid limegreen;
     border-radius: 50%;
-
+    padding-left: 3px;
+    padding-bottom: 2px;
+    
 }
 
 .not-checked{
-    display: inline;
-    width: 20px;
-    height: 20px;
+    display: inline-block;
+    width: 22.5px;
+    height: 22.5px;
     color: red;
     border: 2px solid red;
     border-radius: 50%;
-
+    padding-left: 2px;
+    
 }
 
 .main-li{
