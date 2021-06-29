@@ -1,16 +1,123 @@
 *{
     
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
 
 }
 
 body{
 
-    background-color: lightgray;
+    background-color: rgb(224, 224, 224);
+    
 
 }
+
 
 
 ul {
     list-style-type: none;
 }
+
+main{
+    margin: auto;
+    width: 75%;
+    background-color: lightgray;
+}
+
+.box{
+    background-color: white;
+    margin: 3px 0;
+    padding: 35px;
+
+}
+
+.add-button{
+    display: inline;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.checked{
+    
+    width: 20px;
+    height: 20px;
+    color: limegreen;
+    border: 2px solid limegreen;
+    border-radius: 50%;
+
+}
+
+.not-checked{
+    
+    width: 20px;
+    height: 20px;
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+
+}
+
+.list-box{
+    display: inline;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.edit{
+
+    background-color: skyblue ;
+
+}
+
+.goals{
+
+    background-color: darkmagenta;
+
+}
+
+.recr{
+
+    background-color: darkseagreen;
+
+}
+
+.mob{
+
+    background-color: orange;
+
+}
+
+.web{
+
+    background-color: magenta;
+
+}
+
+.sale{
+
+    background-color: olive;
+
+}
+
+#header{
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+#task{
+    background-color: blue;
+    color: white;
+}
+
+#section{
+    color: gray;
+    border: 1px solid gray;
+}
+
