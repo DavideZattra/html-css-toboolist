@@ -14,20 +14,18 @@ body{
 
 }
 
-
-
-ul {
-    list-style-type: none;
-}
-
 header{
     vertical-align: middle;
-
+    
 }
 main{
     margin: auto;
     width: 75%;
     
+}
+
+ul {
+    list-style-type: none;
 }
 
 .box{
@@ -75,7 +73,7 @@ main{
     margin: 20px 0;
 }
 
-.secundary-li {
+.secondary-li {
     Margin: 15px 25px;
 }
 
